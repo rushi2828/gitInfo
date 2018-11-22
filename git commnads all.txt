@@ -1,0 +1,134 @@
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+
+====================================================================================
+
+Git commands:
+
+Install commands:
+sudo apt-get update                                                  // Done today
+sudo apt-get install git                                             // Done today
+
+git config --global user.name "{git_username}"                            // Configure with git name (@here name should be the same as per on git)
+git config --global user.email "{git_email}"                 // Configure with email    (@here email should be the same as per on git)
+
+
+
+- Create a new repository on git.(e.g gitTest)
+- Then create a new directory/folder (anywhere) in local machine with same name of git repository. (e.g gitTest)
+
+
+- Creating new echo "README.md" file in your local machine folder with using   `echo "# gitTest" >> README.md`
+- Initialise git with using                                                    `git init`                                 //Only do very first time.
+- Add "README.md" file to git repository                                       `git add README.md`                        //Only do very first time.
+- Commit your file with using                                                  `git commit -m "first commit"`
+- Push changes                                                                 `git push -u origin master`
+
+
+For Changing/adding/updating 
+
+- Add changes                                                                  `git add "changes"`
+- Commit your file with using                                                  `git commit -m "second commit"`
+- Push changes                                                                 `git push-u origin master`
+
+
+For Clonning from git 
+- Clone the repository using with                                              `git clone https://github.com/rushi2828/gitTest.git`
+
+For Pull
+- Pull code                                                                    `git pull`
+
+For Branch
+- Create new branch                                                            `git branch {branch-name}`
+- Check brach                                                                  `git branch`
+- Switched to develop branch                                                   `git checkout {branch-name}`
+- Switched to master branch                                                    `git checkout master`
+- Creating new branch directly                                                 `git checkout -b`
+- Create and switch to branch                                                  `git checkout -b {branch-name}`
+- Push changes on branch                                                       ``git push-u origin {branch-name}`
+
+
+Steps for merging two branches:
+- Go to master by using                                                        `git checkout master`
+- Merge comment is                                                             `git merge {branch-name}
+- Check log with                                                               `git log`
+
+
+Steps to upload branch to git
+- To push the current branch and set the remote as upstream, us                `git push --set-upstream origin {branch-name}`
+
+
+
+
+GIT COMMANDS :: `https://dzone.com/articles/top-20-git-commands-with-examples`
+
+Add and commit on same time used                                               `git commit -am "{commit_message}"`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
