@@ -44,8 +44,8 @@ Install commands:
 sudo apt-get update                                                  // Done today
 sudo apt-get install git                                             // Done today
 
-git config --global user.name "{git_username}"                            // Configure with git name (@here name should be the same as per on git)
-git config --global user.email "{git_email}"                 // Configure with email    (@here email should be the same as per on git)
+git config --global user.name "{git_username}"                      // Configure with git name (@here name should be the same as per on git)
+git config --global user.email "{git_email}"                        // Configure with email    (@here email should be the same as per on git)
 
 
 
@@ -68,7 +68,7 @@ For Changing/adding/updating
 
 
 For Clonning from git 
-- Clone the repository using with                                              `git clone https://github.com/rushi2828/gitTest.git`
+- Clone the repository using with                                              `git clone {clone_link}`
 
 For Pull
 - Pull code                                                                    `git pull`
