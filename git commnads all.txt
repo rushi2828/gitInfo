@@ -80,8 +80,8 @@ For Branch
 - Switched to master branch                                                    `git checkout master`
 - Creating new branch directly                                                 `git checkout -b`
 - Create and switch to branch                                                  `git checkout -b {branch-name}`
-- Push changes on branch                                                       ``git push-u origin {branch-name}`
-
+- Push changes on branch                                                       `git push-u origin {branch-name}`
+- Delete branch                                                                `git branch -D {branch-name}`
 
 Steps for merging two branches:
 - Go to master by using                                                        `git checkout master`
